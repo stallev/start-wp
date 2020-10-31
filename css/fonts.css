@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Constantine';
+    src: url('../fonts/Constantine/Constantine.eot');
+    src: url('../fonts/Constantine/Constantine.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Constantine/Constantine.woff2') format('woff2'),
+        url('../fonts/Constantine/Constantine.woff') format('woff'),
+        url('../fonts/Constantine/Constantine.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniNeueBold';
+    src: url('../fonts/UniNeueBold/UniNeueBold.eot');
+    src: url('../fonts/UniNeueBold/UniNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniNeueBold/UniNeueBold.woff2') format('woff2'),
+        url('../fonts/UniNeueBold/UniNeueBold.woff') format('woff'),
+        url('../fonts/UniNeueBold/UniNeueBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniNeueBook';
+    src: url('../fonts/UniNeueBook/UniNeueBook.eot');
+    src: url('../fonts/UniNeueBook/UniNeueBook.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniNeueBook/UniNeueBook.woff2') format('woff2'),
+        url('../fonts/UniNeueBook/UniNeueBook.woff') format('woff'),
+        url('../fonts/UniNeueBook/UniNeueBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniNeueHeavy';
+    src: url('../fonts/UniNeueHeavy/UniNeueHeavy.eot');
+    src: url('../fonts/UniNeueHeavy/UniNeueHeavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniNeueHeavy/UniNeueHeavy.woff2') format('woff2'),
+        url('../fonts/UniNeueHeavy/UniNeueHeavy.woff') format('woff'),
+        url('../fonts/UniNeueHeavy/UniNeueHeavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniNeueLight';
+    src: url('../fonts/UniNeueLight/UniNeueLight.eot');
+    src: url('../fonts/UniNeueLight/UniNeueLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniNeueLight/UniNeueLight.woff2') format('woff2'),
+        url('../fonts/UniNeueLight/UniNeueLight.woff') format('woff'),
+        url('../fonts/UniNeueLight/UniNeueLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniNeueRegular';
+    src: url('../fonts/UniNeueRegular/UniNeueRegular.eot');
+    src: url('../fonts/UniNeueRegular/UniNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniNeueRegular/UniNeueRegular.woff2') format('woff2'),
+        url('../fonts/UniNeueRegular/UniNeueRegular.woff') format('woff'),
+        url('../fonts/UniNeueRegular/UniNeueRegular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
