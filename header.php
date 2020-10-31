@@ -12,14 +12,9 @@
     <link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri()?>/img/logo/logo-1.png">
     <link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri()?>/img/logo/logo-2.png">
     <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri()?>/img/logo/logo-3.png">
-
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/libs/bootstrap/bootstrap-grid.min.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/libs/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/libs/magnific-popup/magnific-popup.css" />
-
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/css/fonts.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/css/main.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/css/media.css" />
+
+    <?php wp_head(); ?>
 
 </head>
 <body>

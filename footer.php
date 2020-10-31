@@ -119,16 +119,8 @@
 <![endif]-->
 
 <script src="<?php echo get_template_directory_uri()?>/libs/jquery/jquery-2.1.3.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/libs/bootstrap/bootstrap.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/libs/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/libs/slick/slick.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/libs/mixitup/mixitup.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/libs/waypoints/waypoints.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/libs/equalHeights/equalHeights.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/libs/scroll2id/PageScroll2id.min.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/scripts.js"></script>
-<script src="<?php echo get_template_directory_uri()?>/js/common.js"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
+<?php wp_footer(); ?>
 </body>
 </html>
