@@ -4,14 +4,14 @@
 				<div class="carousel-inner" role="listbox">
 
 					<div class="item active">
-						<img src="<?php echo get_template_directory_uri()?>/img/bg.jpg" class="img-responsive bord-bottom" alt="">
+						<img src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'slider-bg-1' ), 'full'); ?>" class="img-responsive bord-bottom" alt="">
 						<div class="container">
 							<div class="row"> 								            
 
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-crs-wr">
 									<div class="carousel-caption">
 										<p>Работаем с <span>юр.</span> и <span>физ.</span> лицами</p>
-										<h1 class="hero-heading">Изготовление широкого ассортимента<br/> женской одежды</h1>
+                                        <h1 class="hero-heading"><?php echo carbon_get_theme_option( 'company-buziness1' ); ?><br/> <?php echo carbon_get_theme_option( 'company-buziness2' ); ?></h1>
 									</div>
 									<div class="form-head-wr">
 										<form action="#" class="new-mc-form">
@@ -22,25 +22,25 @@
 											</div>
 										</form>
 									</div>
-									<div class="head-line-par">
-										<p><i class="fa fa-check"></i> Возможность выбора модели по потребности;</p>  
-										<p><i class="fa fa-check"></i> Собственное производство, поэтому стоимость ниже рыночной;</p>
-										<p><i class="fa fa-check"></i> Доставка может обсуждаться дополнительно.</p>
-									</div>
+                                    <div class="head-line-par">
+                                        <p><i class="fa fa-check"></i> <?php echo carbon_get_theme_option( 'company-slider-adv-1' ); ?></p>
+                                        <p><i class="fa fa-check"></i> <?php echo carbon_get_theme_option( 'company-slider-adv-2' ); ?></p>
+                                        <p><i class="fa fa-check"></i> <?php echo carbon_get_theme_option( 'company-slider-adv-3' ); ?></p>
+                                    </div>
 								</div>
 							</div>
 						</div>						
 					</div>
 
 					<div class="item">
-						<img src="<?php echo get_template_directory_uri()?>/img/bg-1.jpg" class="img-responsive bord-bottom" alt="">
+						<img src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'slider-bg-2' ), 'full'); ?>" class="img-responsive bord-bottom" alt="">
 						<div class="container">
 							<div class="row">               
 
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-crs-wr">
 									<div class="carousel-caption">
 										<p>Работаем с <span>юр.</span> и <span>физ.</span> лицами</p>
-										<h1 class="hero-heading">Изготовление широкого ассортимента<br/> женской одежды</h1>
+                                        <h1 class="hero-heading"><?php echo carbon_get_theme_option( 'company-buziness1' ); ?><br/> <?php echo carbon_get_theme_option( 'company-buziness2' ); ?></h1>
 									</div>
 									<div class="form-head-wr">
 										<form action="#" class="new-mc-form">
@@ -51,25 +51,25 @@
 											</div>
 										</form>
 									</div>
-									<div class="head-line-par">
-										<p><i class="fa fa-check"></i> Возможность выбора модели по потребности;</p>  
-										<p><i class="fa fa-check"></i> Собственное производство, поэтому стоимость ниже рыночной;</p>
-										<p><i class="fa fa-check"></i> Доставка может обсуждаться дополнительно.</p>
-									</div>
+                                    <div class="head-line-par">
+                                        <p><i class="fa fa-check"></i> <?php echo carbon_get_theme_option( 'company-slider-adv-1' ); ?></p>
+                                        <p><i class="fa fa-check"></i> <?php echo carbon_get_theme_option( 'company-slider-adv-2' ); ?></p>
+                                        <p><i class="fa fa-check"></i> <?php echo carbon_get_theme_option( 'company-slider-adv-3' ); ?></p>
+                                    </div>
 								</div>
 							</div>
 						</div>						
 					</div>
 
 					<div class="item active">
-						<img src="<?php echo get_template_directory_uri()?>/img/bg-3.jpg" class="img-responsive bord-bottom" alt="">
+						<img src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'slider-bg-3' ), 'full'); ?>" class="img-responsive bord-bottom" alt="">
 						<div class="container">
 							<div class="row"> 							             
 
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-crs-wr">
 									<div class="carousel-caption">
 										<p>Работаем с <span>юр.</span> и <span>физ.</span> лицами</p>
-										<h1 class="hero-heading">Изготовление широкого ассортимента<br/> женской одежды</h1>
+										<h1 class="hero-heading"><?php echo carbon_get_theme_option( 'company-buziness1' ); ?><br/> <?php echo carbon_get_theme_option( 'company-buziness2' ); ?></h1>
 									</div>
 									<div class="form-head-wr">
 										<form action="#" class="new-mc-form">
@@ -81,9 +81,9 @@
 										</form>
 									</div>
 									<div class="head-line-par">
-										<p><i class="fa fa-check"></i> Возможность выбора модели по потребности;</p>  
-										<p><i class="fa fa-check"></i> Собственное производство, поэтому стоимость ниже рыночной;</p>
-										<p><i class="fa fa-check"></i> Доставка может обсуждаться дополнительно.</p>
+										<p><i class="fa fa-check"></i> <?php echo carbon_get_theme_option( 'company-slider-adv-1' ); ?></p>
+										<p><i class="fa fa-check"></i> <?php echo carbon_get_theme_option( 'company-slider-adv-2' ); ?></p>
+										<p><i class="fa fa-check"></i> <?php echo carbon_get_theme_option( 'company-slider-adv-3' ); ?></p>
 									</div>
 								</div>
 							</div>
@@ -99,7 +99,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
-						<h2 class="title">Модели платьев</h2>
+						<h2 class="title"><?php echo carbon_get_theme_option( 'menu-item-2-dress-models' ); ?></h2>
 					</div>
 				</div>
 			</div>
@@ -108,7 +108,7 @@
 				<div class="row">
 					<div class="col-sm-6">         
 						<div class="home-gallery-wrap">
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/4_119DG/1.jpg" class="gallery-tizer-wrap mfp-gallery" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/4_119DG/1.jpg)">	
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-1' ), 'full'); ?>" class="gallery-tizer-wrap mfp-gallery" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/4_119DG/1.jpg)">
 
 								<div class="table">
 									<div class="tr">
@@ -122,13 +122,13 @@
 								</div>
 
 							</a>  
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/4_119DG/1.jpg" class="mfp-gallery"></a>							
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-1' ), 'full'); ?>" class="mfp-gallery"></a>
 						</div>
 					</div>
 
 					<div class="col-sm-6">
 						<div class="home-gallery-wrap">
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/4_219DG/1.jpg" class="gallery-tizer-wrap mfp-gallery-1" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/4_219DG/1.jpg)">	
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-2' ), 'full'); ?>" class="gallery-tizer-wrap mfp-gallery-1" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/4_219DG/1.jpg)">
 
 								<div class="table">
 									<div class="tr">
@@ -142,13 +142,13 @@
 								</div>
 
 							</a>  
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/4_219DG/1.jpg" class="mfp-gallery-1"></a>							
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-2' ), 'full'); ?>" class="mfp-gallery-1"></a>
 						</div>         
 					</div>
 
 					<div class="col-sm-6">
 						<div class="home-gallery-wrap">
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/119DG/1.jpg" class="gallery-tizer-wrap mfp-gallery-2" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/119DG/1.jpg)">	
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-3' ), 'full'); ?>" class="gallery-tizer-wrap mfp-gallery-2" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/119DG/1.jpg)">
 
 								<div class="table">
 									<div class="tr">
@@ -162,13 +162,13 @@
 								</div>
 
 							</a>  
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/119DG/1.jpg" class="mfp-gallery-2"></a>							
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-3' ), 'full'); ?>" class="mfp-gallery-2"></a>
 						</div>         
 					</div>
 
 					<div class="col-sm-6">
 						<div class="home-gallery-wrap">
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/219DG/1.jpg" class="gallery-tizer-wrap mfp-gallery-3" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/219DG/1.jpg)">	
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-4' ), 'full'); ?>" class="gallery-tizer-wrap mfp-gallery-3" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/219DG/1.jpg)">
 
 								<div class="table">
 									<div class="tr">
@@ -182,13 +182,13 @@
 								</div>
 
 							</a>  
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/219DG/1.jpg" class="mfp-gallery-3"></a>	
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-4' ), 'full'); ?>" class="mfp-gallery-3"></a>
 						</div>         
 					</div>
 
 					<div class="col-sm-6">
 						<div class="home-gallery-wrap">
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/319DG/1.jpg" class="gallery-tizer-wrap mfp-gallery-4" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/319DG/1.jpg)">	
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-5' ), 'full'); ?>" class="gallery-tizer-wrap mfp-gallery-4" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/319DG/1.jpg)">
 
 								<div class="table">
 									<div class="tr">
@@ -202,13 +202,13 @@
 								</div>
 
 							</a>  
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/319DG/1.jpg" class="mfp-gallery-4"></a>
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-5' ), 'full'); ?>" class="mfp-gallery-4"></a>
 						</div>         
 					</div>
 
 					<div class="col-sm-6">
 						<div class="home-gallery-wrap">
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/519DG/1.jpg" class="gallery-tizer-wrap mfp-gallery-5" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/519DG/1.jpg)">	
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-6' ), 'full'); ?>" class="gallery-tizer-wrap mfp-gallery-5" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/519DG/1.jpg)">
 
 								<div class="table">
 									<div class="tr">
@@ -222,14 +222,14 @@
 								</div>
 
 							</a>  
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/519DG/1.jpg" class="mfp-gallery-5"></a>		
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-6' ), 'full'); ?>" class="mfp-gallery-5"></a>
 																		
 						</div>         
 					</div>
 
 					<div class="col-sm-6">
 						<div class="home-gallery-wrap">
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/619DG/1.jpg" class="gallery-tizer-wrap mfp-gallery-6" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/619DG/1.jpg)">	
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-7' ), 'full'); ?>" class="gallery-tizer-wrap mfp-gallery-6" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/619DG/1.jpg)">
 
 								<div class="table">
 									<div class="tr">
@@ -243,14 +243,14 @@
 								</div>
 
 							</a>  
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/619DG/1.jpg" class="mfp-gallery-6"></a>	
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-7' ), 'full'); ?>" class="mfp-gallery-6"></a>
 														
 						</div>         
 					</div>
 
 					<div class="col-sm-6">
 						<div class="home-gallery-wrap">
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/719DG/1.jpg" class="gallery-tizer-wrap mfp-gallery-7" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/719DG/1.jpg)">	
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-8' ), 'full'); ?>" class="gallery-tizer-wrap mfp-gallery-7" style="background-image: url(<?php echo get_template_directory_uri()?>/img/collections/719DG/1.jpg)">
 
 								<div class="table">
 									<div class="tr">
@@ -264,7 +264,7 @@
 								</div>
 
 							</a>  
-							<a href="<?php echo get_template_directory_uri()?>/img/collections/719DG/1.jpg" class="mfp-gallery-7"></a>	
+							<a href="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'dress-model-8' ), 'full'); ?>" class="mfp-gallery-7"></a>
 							
 						</div>         
 					</div>
@@ -285,7 +285,7 @@
      					<img src="<?php echo get_template_directory_uri()?>/img/icons/sewing-machine.png" alt="">
      				</div>
      				<div class="vantage-text">
-     					<p>Собственное производство</p>
+     					<p><?php echo carbon_get_theme_option( 'company-spec-work-item-1' ); ?></p>
      				</div>
      			</div>
      		</div>
@@ -296,7 +296,7 @@
      					<img src="<?php echo get_template_directory_uri()?>/img/icons/calendar.png" alt="">
      				</div>
      				<div class="vantage-text">
-     					<p>Точность соблюдения сроков</p>
+     					<p><?php echo carbon_get_theme_option( 'company-spec-work-item-2' ); ?></p>
      				</div>
      			</div>
      		</div>
@@ -307,7 +307,7 @@
      					<img src="<?php echo get_template_directory_uri()?>/img/icons/debit-card.png" alt="">
      				</div>
      				<div class="vantage-text">
-     					<p>Любой способ оплаты</p>
+     					<p><?php echo carbon_get_theme_option( 'company-spec-work-item-3' ); ?></p>
      				</div>
      			</div>
      		</div>
@@ -318,7 +318,7 @@
      					<img src="<?php echo get_template_directory_uri()?>/img/icons/gift.png" alt="">
      				</div>
      				<div class="vantage-text">
-     					<p>Помощь в доставке</p>
+     					<p><?php echo carbon_get_theme_option( 'company-spec-work-item-4' ); ?></p>
      				</div>
      			</div>
      		</div>
@@ -336,7 +336,7 @@
     				<div class="col-md-4 col-sm-5 col-xs-12">
     					<div class="row">
     						<div class="ht-newsletter">    							
-    							<h2><b>Заказажите любую модель платья</b></h2>
+    							<h2><b><?php echo carbon_get_theme_option( 'text-near-model-order-form' ); ?></b></h2>
     						</div>
     					</div>
     				</div>
@@ -371,7 +371,7 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-lg-12">
-    				<h2 class="title">Схема работы</h2>
+    				<h2 class="title"><?php echo carbon_get_theme_option( 'work-order-title' ); ?></h2>
     			</div>
     		</div>
 
@@ -379,25 +379,25 @@
     			<div class="col-lg-3 col-md-3 col-sm-6">
     				<div class="shema">
     					<img src="<?php echo get_template_directory_uri()?>/img/icons/1.png" alt="">
-    					<p>1. Заявка на сайте или звонок</p>
+    					<p><?php echo carbon_get_theme_option( 'work-order-item-1' ); ?></p>
     				</div>
     			</div>
     			<div class="col-lg-3 col-md-3 col-sm-6">
     				<div class="shema">
     					<img src="<?php echo get_template_directory_uri()?>/img/icons/2.png" alt="">
-    					<p>2. Уточнение размеров и количества</p>
+    					<p><?php echo carbon_get_theme_option( 'work-order-item-2' ); ?></p>
     				</div>
     			</div>
     			<div class="col-lg-3 col-md-3 col-sm-6">
     				<div class="shema">
     					<img src="<?php echo get_template_directory_uri()?>/img/icons/3.png" alt="">
-    					<p>3. Определение цены и начало производства</p>
+    					<p><?php echo carbon_get_theme_option( 'work-order-item-3' ); ?></p>
     				</div>
     			</div>
     			<div class="col-lg-3 col-md-3 col-sm-6">
     				<div class="shema">
     					<img src="<?php echo get_template_directory_uri()?>/img/icons/4.png" alt="">
-    					<p>4. Вы можете забирать свои модели</p>
+    					<p><?php echo carbon_get_theme_option( 'work-order-item-4' ); ?></p>
     				</div>
     			</div>
     		</div>
@@ -408,7 +408,7 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-lg-12">
-    				<h2 class="title">Наши преимущества</h2>
+    				<h2 class="title"><?php echo carbon_get_theme_option( 'our-adv-title' ); ?></h2>
     			</div>
     		</div>
     		<div class="row">
@@ -419,7 +419,7 @@
     					</div>
     					<div class="prem_block_desc">
     						<span>Выбор <br/> размера</span>
-    						<p>Платья на любой размер (худые, средние, полные).</p>
+    						<p><?php echo carbon_get_theme_option( 'our-adv-item-1-content' ); ?></p>
     					</div>
     				</div>
     			</div>
@@ -430,7 +430,7 @@
     					</div>
     					<div class="prem_block_desc">
     						<span>Изделия <br/> в упаковке</span>
-    						<p>Платья предлагаются на вешалке в полиэтиленовой упаковке.</p>
+    						<p><?php echo carbon_get_theme_option( 'our-adv-item-2-content' ); ?></p>
     					</div>
     				</div>
     			</div>
@@ -441,7 +441,7 @@
     					</div>
     					<div class="prem_block_desc">
     						<span>Учтены все <br/> особенности</span>
-    						<p>Платья длинной в пол и замком сзади на всю длину.</p>
+    						<p><?php echo carbon_get_theme_option( 'our-adv-item-3-content' ); ?></p>
     					</div>
     				</div>
     			</div>
@@ -452,7 +452,7 @@
     					</div>
     					<div class="prem_block_desc">
     						<span>Собственное <br/> производство</span>
-    						<p>Все модели платьев мы шьем сами.</p>
+    						<p><?php echo carbon_get_theme_option( 'our-adv-item-4-content' ); ?></p>
     					</div>
     				</div>
     			</div>
@@ -463,7 +463,7 @@
     					</div>
     					<div class="prem_block_desc">
     						<span>Опыт <br/> работы</span>
-    						<p>Опыт работы в сфере пошива одежды более 10 лет.</p>
+    						<p><?php echo carbon_get_theme_option( 'our-adv-item-5-content' ); ?></p>
     					</div>
     				</div>
     			</div>
@@ -474,7 +474,7 @@
     					</div>
     					<div class="prem_block_desc">
     						<span>Индивидуальный <br/> подход</span>
-    						<p>Конструкторские решения, дополненное дизайнерское видение.</p>
+    						<p><?php echo carbon_get_theme_option( 'our-adv-item-6-content' ); ?></p>
     					</div>
     				</div>
     			</div>
@@ -485,7 +485,7 @@
     					</div>
     					<div class="prem_block_desc">
     						<span>Приемлемые <br/> условия</span>
-    						<p>Наши клиенты всегда благодарны нам за поддержку и внимание.</p>
+    						<p><?php echo carbon_get_theme_option( 'our-adv-item-7-content' ); ?></p>
     					</div>
     				</div>
     			</div>
@@ -512,7 +512,7 @@
    	<div class="container">
    		<div class="row">
    			<div class="col-lg-12">
-   				<h2 class="title">Отзывы наших клиентов</h2>
+   				<h2 class="title"><?php echo carbon_get_theme_option( 'reviews-section-title' ); ?></h2>
    			</div>
    		</div>
    	</div>
@@ -524,10 +524,10 @@
    				<div class="col-sm-3">  
    					<div class="testimonial-shadow">      
    						<a href="#" class="testimonial_item">
-   							<img src="<?php echo get_template_directory_uri()?>/img/certificate/1.JPG" alt="">   							
+   							<img src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'review-photo-1' ), 'full'); ?>" alt="">
    							<span class="hidden">
    								<span class="testimonial_popup">
-   									<img class="resp_img" src="<?php echo get_template_directory_uri()?>/img/certificate/1.JPG" alt="">                 
+   									<img class="resp_img" src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'review-photo-1' ), 'full'); ?>" alt="">
    								</span>
    							</span>
    						</a>  
@@ -537,10 +537,10 @@
    				<div class="col-sm-3">
    					<div class="testimonial-shadow">  
    						<a href="#" class="testimonial_item">
-   							<img src="<?php echo get_template_directory_uri()?>/img/certificate/1.JPG" alt="">   							
+   							<img src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'review-photo-1' ), 'full'); ?>" alt="">
    							<span class="hidden">
    								<span class="testimonial_popup">
-   									<img class="resp_img" src="<?php echo get_template_directory_uri()?>/img/certificate/1.JPG" alt="">                 
+   									<img class="resp_img" src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'review-photo-1' ), 'full'); ?>" alt="">
    								</span>
    							</span>
    						</a>          
@@ -550,10 +550,10 @@
    				<div class="col-sm-3">
    					<div class="testimonial-shadow">
    						<a href="#" class="testimonial_item">
-   							<img src="<?php echo get_template_directory_uri()?>/img/certificate/1.JPG" alt="">   							
+   							<img src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'review-photo-1' ), 'full'); ?>" alt="">
    							<span class="hidden">
    								<span class="testimonial_popup">
-   									<img class="resp_img" src="<?php echo get_template_directory_uri()?>/img/certificate/1.JPG" alt="">                 
+   									<img class="resp_img" src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'review-photo-1' ), 'full'); ?>" alt="">
    								</span>
    							</span>
    						</a>          
@@ -563,10 +563,10 @@
    				<div class="col-sm-3">
    					<div class="testimonial-shadow">
    						<a href="#" class="testimonial_item">
-   							<img src="<?php echo get_template_directory_uri()?>/img/certificate/1.JPG" alt="">   							
+   							<img src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'review-photo-1' ), 'full'); ?>" alt="">
    							<span class="hidden">
    								<span class="testimonial_popup">
-   									<img class="resp_img" src="<?php echo get_template_directory_uri()?>/img/certificate/1.JPG" alt="">                 
+   									<img class="resp_img" src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'review-photo-1' ), 'full'); ?>" alt="">
    								</span>
    							</span>
    						</a>          
@@ -584,7 +584,7 @@
    	<div class="container">
    		<div class="row">
    			<div class="col-lg-12">
-   				<h2 class="title">Кратко о нас</h2>
+   				<h2 class="title"><?php echo carbon_get_theme_option( 'in-brief-title' ); ?></h2>
    			</div>
    		</div>
    	</div>
@@ -593,17 +593,17 @@
    		<div class="row">
    			<div class="col-sm-6">
    				<div class="ab-des">
-   					<p>На начальном пути нашего развития нам захотелось уделить внимание этой нише, в которой, много девушек и женщин хотят выглядеть привлекательно.</p>
-   					<p>Занимаясь индивидуальным пошивом, к нам обращались заказчицы за пошивом платьев таких изделий. Это изделия для каждой дамы. </p>
-   					<p>Мы хотим, чтобы наши женщины выглядели красиво и привлекали внимание противоположенного пола.</p>
+   					<p><?php echo carbon_get_theme_option( 'in-brief-item-1' ); ?></p>
+   					<p><?php echo carbon_get_theme_option( 'in-brief-item-2' ); ?></p>
+   					<p><?php echo carbon_get_theme_option( 'in-brief-item-3' ); ?></p>
    				</div>
    			</div>
    			<div class="col-sm-6">
    				<div class="ab-des">
-   					<p><i class="fa fa-check"></i> Мы эксперты в своей нише с многолетним опытом.</p>
-   					<p><i class="fa fa-check"></i> Мы производим продукт высокого качества с индивидуальным подходом к каждому клиенту.</p>
-   					<p><i class="fa fa-check"></i> Наши платья технологичные, с удобной застежкой, рассчитанные на два размерных признака, что дает возможность выбора модели по желанию заказчика</p>
-   					<p><i class="fa fa-check"></i> Именно поэтому, основной нашей особенностью стали качество, внимание к деталям, и индивидуальный подход к различным типам фигур.</p>
+   					<p><i class="fa fa-check"></i><?php echo carbon_get_theme_option( 'in-brief-list-item-1' ); ?></p>
+   					<p><i class="fa fa-check"></i><?php echo carbon_get_theme_option( 'in-brief-list-item-2' ); ?></p>
+   					<p><i class="fa fa-check"></i><?php echo carbon_get_theme_option( 'in-brief-list-item-3' ); ?></p>
+   					<p><i class="fa fa-check"></i><?php echo carbon_get_theme_option( 'in-brief-list-item-4' ); ?></p>
    				</div>
    			</div>
    		</div>
