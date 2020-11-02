@@ -109,6 +109,9 @@
         </div>
 
     </form>
+    <div>
+      <?php echo do_shortcode( '[contact-form-7 id="33" title="Без названия"]' ); ?>
+    </div>
 </div>
 
 <!--[if lt IE 9]>

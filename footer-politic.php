@@ -71,41 +71,6 @@
 
 </footer>
 
-<div class="hidden"></div>
-
-<div id="callback" class="white-popup mfp-with-anim mfp-hide">
-  <form class="contact-form form-callback">
-
-    <input type="hidden" name="admin-data">
-    <input type="hidden" name="project_name" value="Название сайта">
-    <input type="hidden" name="admin_email" value="bestlanding777@gmail.com">
-    <input type="hidden" name="form_subject" value="Заявка с верхней формы">
-
-    <div class="contact-form-head">
-      <h4>Оставить заявку</h4>
-    </div>
-
-    <label>
-      <!--<span>Ваше имя:</span>-->
-      <input type="text" name="Имя" placeholder="Ваше имя...">
-    </label>
-
-    <label>
-      <!--<span>Ваш телефон:</span>-->
-      <input type="text" name="Телефон" placeholder="Ваш телефон..." required>
-    </label>
-
-    <div class="text-center">
-      <button class="button button-small">Отправить</button>
-    </div>
-
-    <div class="politic-conf" style="text-align:center;font-size:12px;padding-top:10px">
-      <p>Отправляя сообщение, вы соглашаетесь с <a href="politic.html" target="_blank">"Политикой конфиденциальности"</a></p>
-    </div>
-
-  </form>
-</div>
-
 <!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri()?>/libs/html5shiv/es5-shim.min.js"></script>
 	<script src="<?php echo get_template_directory_uri()?>/libs/html5shiv/html5shiv.min.js"></script>
