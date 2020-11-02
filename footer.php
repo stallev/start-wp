@@ -105,7 +105,7 @@
         </div>
 
         <div class="politic-conf" style="text-align:center;font-size:12px;padding-top:10px">
-            <p>Отправляя сообщение, вы соглашаетесь с <a href="politic.html" target="_blank">"Политикой конфиденциальности"</a></p>
+            <p>Отправляя сообщение, вы соглашаетесь с <a href="<?php echo get_template_directory_uri()?>/politic/" target="_blank">"Политикой конфиденциальности"</a></p>
         </div>
 
     </form>

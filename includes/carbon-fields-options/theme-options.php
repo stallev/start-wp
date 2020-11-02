@@ -44,6 +44,7 @@ Container::make( 'theme_options', 'Настройки сайта' )
       Field::make( 'image', 'dress-model-6', 'Фото платья №6' ),
       Field::make( 'image', 'dress-model-7', 'Фото платья №7' ),
       Field::make( 'image', 'dress-model-8', 'Фото платья №8' ),
+      Field::make( 'text', 'look-model-photo', 'Отображается при наведении курсора на фото' ),
     ])
   ->add_tab( 'Особенности работы', [
     Field::make( 'text', 'company-spec-work-item-1', 'Производство' ),

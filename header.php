@@ -97,7 +97,7 @@
 
                     <nav class="main-mnu hidden-mnu hidden-lg clearfix">
                         <ul>
-                            <li><a href="#header"><?php echo carbon_get_theme_option( 'menu-item-1-main-page' ); ?></a></li>
+                            <li><a href="/"><?php echo carbon_get_theme_option( 'menu-item-1-main-page' ); ?></a></li>
                             <li><a href="#about-own-page"><?php echo carbon_get_theme_option( 'menu-item-2-dress-models' ); ?></a></li>
                             <li><a href="#prem"><?php echo carbon_get_theme_option( 'menu-item-3-advantages' ); ?></a></li>
                             <li><a href="#testimonials"><?php echo carbon_get_theme_option( 'menu-item-4-reviews' ); ?></a></li>

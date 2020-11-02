@@ -115,7 +115,7 @@
 										<div class="td">
 											<span>
 												<i class="fa fa-search-plus" aria-hidden="true"></i><br>
-												Смотреть модель
+												<?php echo carbon_get_theme_option( 'look-model-photo' );?>
 											</span>
 										</div>
 									</div>
@@ -135,7 +135,7 @@
 										<div class="td">
 											<span>
 												<i class="fa fa-search-plus" aria-hidden="true"></i><br>
-												Смотреть модель
+												<?php echo carbon_get_theme_option( 'look-model-photo' );?>
 											</span>
 										</div>
 									</div>
@@ -155,7 +155,7 @@
 										<div class="td">
 											<span>
 												<i class="fa fa-search-plus" aria-hidden="true"></i><br>
-												Смотреть модель
+												<?php echo carbon_get_theme_option( 'look-model-photo' );?>
 											</span>
 										</div>
 									</div>
@@ -175,7 +175,7 @@
 										<div class="td">
 											<span>
 												<i class="fa fa-search-plus" aria-hidden="true"></i><br>
-												Смотреть модель
+												<?php echo carbon_get_theme_option( 'look-model-photo' );?>
 											</span>
 										</div>
 									</div>
@@ -195,7 +195,7 @@
 										<div class="td">
 											<span>
 												<i class="fa fa-search-plus" aria-hidden="true"></i><br>
-												Смотреть модель
+												<?php echo carbon_get_theme_option( 'look-model-photo' );?>
 											</span>
 										</div>
 									</div>
@@ -215,7 +215,7 @@
 										<div class="td">
 											<span>
 												<i class="fa fa-search-plus" aria-hidden="true"></i><br>
-												Смотреть модель
+												<?php echo carbon_get_theme_option( 'look-model-photo' );?>
 											</span>
 										</div>
 									</div>
@@ -236,7 +236,7 @@
 										<div class="td">
 											<span>
 												<i class="fa fa-search-plus" aria-hidden="true"></i><br>
-												Смотреть модель
+												<?php echo carbon_get_theme_option( 'look-model-photo' );?>
 											</span>
 										</div>
 									</div>
@@ -257,7 +257,7 @@
 										<div class="td">
 											<span>
 												<i class="fa fa-search-plus" aria-hidden="true"></i><br>
-												Смотреть модель
+												<?php echo carbon_get_theme_option( 'look-model-photo' );?>
 											</span>
 										</div>
 									</div>
