@@ -5,52 +5,52 @@
 
                 <div class="widget about-us-widget col-sm-6 col-lg-3">
                     <a href="index.html" class="brand_logo">
-                        <img src="<?php echo get_template_directory_uri()?>/img/logo/logo-white.png" alt="">
+                        <img src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option( 'site_footer_logo' ), 'array(200, 68)'); ?>" alt="">
                     </a>
-                    <p>Наше ателье - это эстетика, сдержанные линии, слегка переходящие в легкий романтизм, которые добавляют образу легкой нежности, теплоты, заботы, но при этом не уходя от четких жизненных позиций</p>
+                    <p><?php echo carbon_get_theme_option( 'company_footer_description' );?></p>
                 </div>
 
                 <div class="widget widget-links col-sm-6 col-lg-3">
-                    <h4 class="widget_title">Меню</h4>
+                    <h4 class="widget_title"><?php echo carbon_get_theme_option( 'company_footer_menu-title' );?></h4>
                     <div class="widget-contact-list row m0">
                         <ul>
-                            <li><a href="#header"><i class="fa fa-angle-right"></i>Главная</a></li>
-                            <li><a href="#about-own-page"><i class="fa fa-angle-right"></i>Модели платьев</a></li>
-                            <li><a href="#prem"><i class="fa fa-angle-right"></i>Преимущества</a></li>
-                            <li><a href="#testimonials"><i class="fa fa-angle-right"></i>Отзывы</a></li>
-                            <li><a href="#about-descr-wr"><i class="fa fa-angle-right"></i>Об ателье</a></li>
-                            <li><a href="#mp-wrap"><i class="fa fa-angle-right"></i>Контакты</a></li>
+                            <li><a href="/"><i class="fa fa-angle-right"></i><?php echo carbon_get_theme_option( 'menu-item-1-main-page' );?></a></li>
+                            <li><a href="#about-own-page"><i class="fa fa-angle-right"></i><?php echo carbon_get_theme_option( 'menu-item-2-dress-models' );?></a></li>
+                            <li><a href="#prem"><i class="fa fa-angle-right"></i><?php echo carbon_get_theme_option( 'menu-item-3-advantages' );?></a></li>
+                            <li><a href="#testimonials"><i class="fa fa-angle-right"></i><?php echo carbon_get_theme_option( 'menu-item-4-reviews' );?></a></li>
+                            <li><a href="#about-descr-wr"><i class="fa fa-angle-right"></i><?php echo carbon_get_theme_option( 'menu-item-5-about-company' );?></a></li>
+                            <li><a href="#mp-wrap"><i class="fa fa-angle-right"></i><?php echo carbon_get_theme_option( 'menu-item-6-contacts' );?></a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="widget widget-contact  col-sm-6 col-lg-3">
-                    <h4 class="widget_title">Контакты</h4>
+                    <h4 class="widget_title"><?php echo carbon_get_theme_option( 'company_footer_contacts-title' );?></h4>
                     <div class="widget-contact-list row m0">
                         <ul>
                             <li>
                                 <i class="fa fa-map-marker"></i>
                                 <div class="fleft location_address">
-                                    Адрес компании
+									<?php echo carbon_get_theme_option( 'company_address' );?>
                                 </div>
 
                             </li>
                             <li>
                                 <i class="fa fa-phone"></i>
                                 <div class="fleft contact_no">
-                                    <a href="+375000000000">+375 00 000 00 00</a>
+                                    <a href="tel:<?php echo carbon_get_theme_option( 'company_contact-phone-1' ); ?>"><?php echo carbon_get_theme_option( 'company_contact-phone-1-printing' ); ?></a>
                                 </div>
                             </li>
                             <li>
                                 <i class="fa fa-phone"></i>
                                 <div class="fleft contact_no">
-                                    <a href="+375000000000">+375 00 000 00 00</a>
+                                    <a href="tel:<?php echo carbon_get_theme_option( 'company_contact-phone-2' ); ?>"><?php echo carbon_get_theme_option( 'company_contact-phone-2-printing' ); ?></a>
                                 </div>
                             </li>
                             <li>
                                 <i class="fa fa-envelope-o"></i>
                                 <div class="fleft contact_mail">
-                                    <a href="mailto:ваш-email@mail.ru">ваш-email@mail.ru</a>
+                                    <a href="mailto:<?php echo carbon_get_theme_option( 'company_email' );?>"><?php echo carbon_get_theme_option( 'company_email' );?></a>
                                 </div>
                             </li>
                         </ul>
@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="widget widget4 widget-form col-sm-6 col-lg-3">
-                    <h4 class="widget_title">Заказать</h4>
+                    <h4 class="widget_title"><?php echo carbon_get_theme_option( 'company_footer_order-form-title' );?></h4>
                     <div class="widget-contact-list row m0">
                         <form class="submet-form row m0" action="#" method="post">
                             <input type="text" class="form-control" id="name" placeholder="Ваше имя">

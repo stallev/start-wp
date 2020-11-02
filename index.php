@@ -418,8 +418,8 @@
     						<img src="<?php echo get_template_directory_uri()?>/img/prem/mannequin.png" alt="">
     					</div>
     					<div class="prem_block_desc">
-    						<span>Выбор <br/> размера</span>
-    						<p><?php echo carbon_get_theme_option( 'our-adv-item-1-content' ); ?></p>
+    						<span><?php echo carbon_get_theme_option( 'our-adv-item-1-title' );?></span>
+    						<p><?php echo carbon_get_theme_option( 'our-adv-item-1-content' );?></p>
     					</div>
     				</div>
     			</div>
@@ -429,7 +429,7 @@
     						<img src="<?php echo get_template_directory_uri()?>/img/prem/costume-clothes.png" alt="">
     					</div>
     					<div class="prem_block_desc">
-    						<span>Изделия <br/> в упаковке</span>
+    						<span><?php echo carbon_get_theme_option( 'our-adv-item-2-title' );?></span>
     						<p><?php echo carbon_get_theme_option( 'our-adv-item-2-content' ); ?></p>
     					</div>
     				</div>
@@ -440,7 +440,7 @@
     						<img src="<?php echo get_template_directory_uri()?>/img/prem/fashion.png" alt="">
     					</div>
     					<div class="prem_block_desc">
-    						<span>Учтены все <br/> особенности</span>
+    						<span><?php echo carbon_get_theme_option( 'our-adv-item-3-title' );?></span>
     						<p><?php echo carbon_get_theme_option( 'our-adv-item-3-content' ); ?></p>
     					</div>
     				</div>
@@ -451,7 +451,7 @@
     						<img src="<?php echo get_template_directory_uri()?>/img/prem/bride-dress.png" alt="">
     					</div>
     					<div class="prem_block_desc">
-    						<span>Собственное <br/> производство</span>
+    						<span><?php echo carbon_get_theme_option( 'our-adv-item-4-title' );?></span>
     						<p><?php echo carbon_get_theme_option( 'our-adv-item-4-content' ); ?></p>
     					</div>
     				</div>
@@ -462,7 +462,7 @@
     						<img src="<?php echo get_template_directory_uri()?>/img/prem/goal.png" alt="">
     					</div>
     					<div class="prem_block_desc">
-    						<span>Опыт <br/> работы</span>
+    						<span><?php echo carbon_get_theme_option( 'our-adv-item-5-title' );?></span>
     						<p><?php echo carbon_get_theme_option( 'our-adv-item-5-content' ); ?></p>
     					</div>
     				</div>
@@ -473,7 +473,7 @@
     						<img src="<?php echo get_template_directory_uri()?>/img/prem/collaboration.png" alt="">
     					</div>
     					<div class="prem_block_desc">
-    						<span>Индивидуальный <br/> подход</span>
+    						<span><?php echo carbon_get_theme_option( 'our-adv-item-6-title' );?></span>
     						<p><?php echo carbon_get_theme_option( 'our-adv-item-6-content' ); ?></p>
     					</div>
     				</div>
@@ -484,7 +484,7 @@
     						<img src="<?php echo get_template_directory_uri()?>/img/prem/handshake.png" alt="">
     					</div>
     					<div class="prem_block_desc">
-    						<span>Приемлемые <br/> условия</span>
+    						<span><?php echo carbon_get_theme_option( 'our-adv-item-7-title' );?></span>
     						<p><?php echo carbon_get_theme_option( 'our-adv-item-7-content' ); ?></p>
     					</div>
     				</div>
@@ -596,6 +596,7 @@
    					<p><?php echo carbon_get_theme_option( 'in-brief-item-1' ); ?></p>
    					<p><?php echo carbon_get_theme_option( 'in-brief-item-2' ); ?></p>
    					<p><?php echo carbon_get_theme_option( 'in-brief-item-3' ); ?></p>
+                    <a href="<?php echo get_template_directory_uri()?>/politic/">Политика конфиденциальности</a>
    				</div>
    			</div>
    			<div class="col-sm-6">
@@ -617,10 +618,10 @@
    			<div class="mp__container">
    				<div class="mp__title mp__padding-top mp__padding-bottom">Контакты</div>
    				<div class="mp__contact padding-bottom">
-   					<a>Адрес компании</a>
-   					<a href="tel:+375000000000">+375 00 000 00 00</a>
-   					<a href="tel:+375000000000">+375 00 000 00 00</a>
-   					<a href="mailto:tnsistyle33@mail.ru">Email: ваш-email@mail.ru</a>          
+   					<a><?php echo carbon_get_theme_option( 'company_address' ); ?></a>
+   					<a href="tel:<?php echo carbon_get_theme_option( 'company_contact-phone-1' ); ?>"><?php echo carbon_get_theme_option( 'company_contact-phone-1-printing' ); ?></a>
+                    <a href="tel:<?php echo carbon_get_theme_option( 'company_contact-phone-2' ); ?>"><?php echo carbon_get_theme_option( 'company_contact-phone-2-printing' ); ?></a>
+   					<a href="mailto:<?php echo carbon_get_theme_option( 'company_email' );?>">Email: <?php echo carbon_get_theme_option( 'company_email' ); ?></a>
    				</div>
    			</div>
    		</div>

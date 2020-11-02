@@ -9,11 +9,13 @@ use Carbon_Fields\Field;
 Container::make( 'theme_options', 'Настройки сайта' )
     ->add_tab( 'Настройки шапки', [
         Field::make( 'image', 'site_logo', 'Логотип' ),
+		 		
         Field::make( 'text', 'company_address', 'Адрес компании1' ),
         Field::make( 'text', 'company_contact-phone-1', 'Первый номер телефона в формате +3751111111' ),
         Field::make( 'text', 'company_contact-phone-1-printing', 'Отображение первого номера телефона' ),
         Field::make( 'text', 'company_contact-phone-2', 'Второй номер телефона в формате +3751111111' ),
         Field::make( 'text', 'company_contact-phone-2-printing', 'Отображение второго номера телефона' ),
+		 		Field::make( 'text', 'company_email', 'E-mail предприятия' ),
         Field::make( 'text', 'company_occupation', 'Чем мы занимаемся' ),
         Field::make( 'text', 'menu-item-1-main-page', 'Пункт меню Главная' ),
         Field::make( 'text', 'menu-item-2-dress-models', 'Пункт меню Модели платьев' ),
@@ -87,6 +89,16 @@ Container::make( 'theme_options', 'Настройки сайта' )
     Field::make( 'text', 'in-brief-list-item-2', 'Элемент списка 2' ),
     Field::make( 'text', 'in-brief-list-item-3', 'Элемент списка 3' ),
     Field::make( 'text', 'in-brief-list-item-4', 'Элемент списка 4' ),
+  ])
+	 ->add_tab( 'Подвал', [
+		Field::make( 'image', 'site_footer_logo', 'Логотип в подвале сайта' ),
+		Field::make( 'text', 'company_footer_description', 'Краткое описание деятельности компании в подвале сайта' ),
+		Field::make( 'text', 'company_footer_menu-title', 'Название блока меню' ),
+		Field::make( 'text', 'company_footer_contacts-title', 'Название блока контактов' ),
+		Field::make( 'text', 'company_footer_order-form-title', 'Название формы заказа' ),
+	 ])
+  ->add_tab( 'Политика конфиденциальности', [
+    Field::make( 'rich_text', 'politic_text', 'Текст политики конфиденциальности' ),
   ])
     ->add_tab( 'Контакты', [
         Field::make( 'text', 'site_phone', 'Телефон' ),

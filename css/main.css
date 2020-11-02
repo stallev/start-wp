@@ -1182,6 +1182,7 @@ input[type="text"] {
   padding-left: 80px;
 }
 .prem_block_desc span {
+  max-width: 96px;
   font-weight: 700;
   margin: 0 0 5px;
   display: inline-block;
