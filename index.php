@@ -342,23 +342,14 @@
     				</div>
     				<div class="col-md-8 col-sm-7 col-xs-12">
     					<div class="row">
-    						<form class="form-inline newsletter-forn-in">
-    							<div class="col-md-5  col-sm-9 col-xs-12">
-    								<div class="form-group">
-    									<input class="form-control newsletter-input" type="text" placeholder="Ваше имя">
-    								</div>
-    							</div>
-    							<div class="col-md-5  col-sm-9 col-xs-12">
-    								<div class="form-group">
-    									<input class="form-control newsletter-input" type="text" placeholder="Ваш телефон">
-    								</div>
-    							</div>
-    							<div class="col-md-2  col-sm-3 col-xs-12">
-    								<div class="row text-center">
-    									<button type="submit" class="subscribe-btn">Отправить</button>
-    								</div>
-    							</div> 
-    						</form>
+    						<div class="form-inline newsletter-forn-in">
+                                <div>
+                                  <?php echo do_shortcode( '[contact-form-7 id="41" title="Заказ модели платья средняя"]' ); ?>
+                                </div>
+    						</div>
+                            <div>
+                            
+                            </div>
     					</div>
     				</div>
     			</div>

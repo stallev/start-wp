@@ -789,8 +789,8 @@ a:active, a:focus, input, textarea, button { outline: none; }
     top: 34px;
 }
 /*----------------------------*/
-.form-callback {
-  padding: 32px 26px;  
+.form-callback{
+  padding: 32px 26px 10px;
   background-color: #503434; 
 }
 .contact-form-head {
@@ -815,7 +815,10 @@ a:active, a:focus, input, textarea, button { outline: none; }
   margin-bottom: 3px;
   display: block;
 }
-.form-callback input {
+.form-callback input,
+.form-order__input-name,
+.form-order__input-phone,
+.wpcf7-response-output{
     background-color: transparent;
     border-radius: 2px;
     border: none;
@@ -824,12 +827,14 @@ a:active, a:focus, input, textarea, button { outline: none; }
     width: 100%;
     color: #fff;
     font-size: 14px;
-    border-bottom: #fff 1px solid;   
+    border-bottom: #fff 1px solid;
+    box-shadow:none;
   }    
-input[type="text"] {    
+input[type="text"],
+.form-order__input-name input[type="text"]{
     color: #fff;
 }
-.form-callback ::-webkit-input-placeholder { /* WebKit browsers */
+.form-callback ::-webkit-input-placeholder{ /* WebKit browsers */
    color: #fff;
 }
 .form-callback :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
@@ -850,7 +855,28 @@ input[type="text"] {
   margin-bottom: 12px;
   display: block;
 }
-.button-small {
+#wpcf7-f33-o1 .form-order__submit{
+  width: auto;
+  margin-top: 0;
+  margin: 0 auto;
+  padding: 2px 32px;
+  font-size: 13px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  line-height: 40px;
+  font-weight: 600;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow:none;
+  letter-spacing: .8px;
+}
+#wpcf7-f33-o1 span.ajax-loader{
+  height: 0;
+  background-color: #0A246A;
+}
+.button-small,
+#wpcf7-f33-o1 .form-order__submit{
   padding: 2px 32px;
   font-size: 13px;
   background-color: transparent;   
@@ -864,13 +890,15 @@ input[type="text"] {
   box-shadow:none;
   letter-spacing: .8px;
 }
-.button-small:hover {
+.button-small:hover,
+#wpcf7-f33-o1 .form-order__submit:hover{
   background-color: #f87000;
   transition: all .25s ease;
    webkit-transition: all .25s ease;
 }
 
-.button-small:active {
+.button-small:active,
+#wpcf7-f33-o1 .form-order__submit:active {
   background-color: #f87000;
 }
 .form-callback .text-center {
@@ -882,8 +910,18 @@ input[type="text"] {
   position:relative;
 } 
 .politic-conf p{
+  margin-top: -25px;
   color: #fff;
   font-size: 12px;
+}
+.contact-form .wpcf7 form .wpcf7-response-output{
+  margin-top: -30px;
+}
+.contact-form .sent .wpcf7-response-output{
+ border: none;
+}
+#wpcf7-f33-o1 invalid p{
+  margin-bottom: 0;
 }
 .politic-conf a{
   color: #fff;   
@@ -895,6 +933,8 @@ input[type="text"] {
    transition: all .25s ease;
    webkit-transition: all .25s ease;
 }
+/* скрываю элементы ранее сверстанной формы*/
+
 /*----------------------*/
 
 /*---about-own-page---*/
@@ -1050,10 +1090,22 @@ input[type="text"] {
     height: 56px;
     border-radius: 120px;
     padding-left: 38px;
-    width: 100%!important;
     border: 1px #eee solid;
-    margin-left: -15px!important;
 }
+/*Стилизация формы Contact7 */
+#wpcf7-f41-o1 .newsletter-input{
+  width: 253px;
+}
+#wpcf7-f41-o1 p{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+span.text-167, span.tel-446{
+  display: block;
+}
+#wpcf7-f41-o1 .subscribe-btn{}
+
 .form-group {
     width: 100%;
 }
@@ -1061,8 +1113,7 @@ input[type="text"] {
     background-color: #f87000;    
     color: #fff;
     height: 56px;
-    border-radius: 120px;    
-    width: 100%!important;
+    border-radius: 120px;
     border: none;
     font-size: 18px;   
      -webkit-box-shadow:0 0 16px 3px rgba(242, 182, 128, 0.86);
@@ -1098,6 +1149,24 @@ input[type="text"] {
     letter-spacing: 0;
     margin-top: -11px;
   }
+  /*Стилизация формы Contact7 */
+  #wpcf7-f41-o1 .newsletter-input{
+    width: 256px;
+  }
+  #wpcf7-f41-o1 p{
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  span.text-167, span.tel-446{
+    margin-right: 45px;
+  }
+  span.text-167{
+    margin-right: 45px;
+  }
+  #wpcf7-f41-o1 .subscribe-btn{
+    margin-top: -35px;
+  }
 }
 @media only screen and (max-width : 767px) {
   .form input[type="text"]{
@@ -1113,10 +1182,6 @@ input[type="text"] {
     margin-bottom: 50px;
     text-align: center;
   }
-  .newsletter-input{
-    margin-left: 0!important;
-    margin-bottom: 20px;
-  }
   .subscribe-btn{
     width: 80%!important;
   }
@@ -1125,6 +1190,28 @@ input[type="text"] {
   }  
   .subscribe-section{
     padding: 0 0 40px;
+  }
+  /*Стилизация формы Contact7 */
+    #wpcf7-f41-o1 p{
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+  span.text-167, span.tel-446{
+    width: 100%;
+  }
+  span input{
+    width: 100%!important;
+  }
+  span.text-167{
+    margin-right: 45px;
+  }
+  span.tel-446{
+    margin-bottom: 25px;
+  }
+  #wpcf7-f41-o1 .subscribe-btn{
+    margin-top: -15px;
+    align-self: center;
   }
 }
 @media only screen and (min-width : 768px) {
@@ -1135,6 +1222,8 @@ input[type="text"] {
   }
 }
 /*--------------------*/
+
+
 
 /*---work-shema----*/
 .work-shema{
